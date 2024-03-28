@@ -2962,7 +2962,7 @@
 																					<value>Current Limit (A)</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
-																					<value>0.01</value>
+																					<value>0.1</value>
 																				</ArgumentValue>
 																				<Direction classname='Str'>
 																					<value>In</value>
@@ -2998,7 +2998,7 @@
 																					<value>Current Limit Range (A)</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
-																					<value>0.01</value>
+																					<value>1</value>
 																				</ArgumentValue>
 																				<Direction classname='Str'>
 																					<value>In</value>

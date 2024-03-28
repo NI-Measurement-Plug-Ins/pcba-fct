@@ -7,16 +7,19 @@
 		<NIDCPowerInstrument name="DCPower2" numberOfChannels="1">
 			<ChannelGroup name="CommonDCPowerChannelGroup" channels="0" />
 		</NIDCPowerInstrument>
+		<NIDmmInstrument name="DMM1" />
 	</Instruments>
 	<Pins>
 		<DUTPin name="Pin1" />
 		<DUTPin name="Pin2" />
+		<DUTPin name="DMMPin" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
+		<Connection pin="DMMPin" siteNumber="0" instrument="DMM1" channel="0" />
 		<Connection pin="Pin1" siteNumber="0" instrument="DCPower1" channel="0" />
 		<Connection pin="Pin2" siteNumber="0" instrument="DCPower2" channel="0" />
 	</Connections>
