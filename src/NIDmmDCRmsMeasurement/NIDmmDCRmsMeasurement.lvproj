@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="24008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -11,7 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NIDmmDCRmsVoltage.lvlib" Type="Library" URL="../NIDmmDCRmsVoltage/NIDmmDCRmsVoltage.lvlib"/>
+		<Item Name="NIDmmDCRmsMeasurement.lvlib" Type="Library" URL="../NIDmmDCRmsMeasurement/NIDmmDCRmsMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDMM Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Attach gRPC Session.vi"/>
@@ -114,80 +116,70 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NIDmmDCRmsVoltage" Type="EXE">
+			<Item Name="NIDmmDCRmsMeasurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{B7C3AE00-712A-4E51-AB74-5803CB995C7A}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C783276F-36CC-43FB-A379-A6EDD82B39C8}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7C980255-D621-48C8-BED7-98FA21BEADA5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{80BC14F9-252F-4ADF-830E-CBA983E3FB05}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B6145623-C27A-4FDF-8A44-D41CAB8CD848}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NIDmmDCRmsVoltage</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F3E79731-918F-4FC3-9BF3-A2F3F2D0754E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NIDmmDCRmsMeasurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsVoltage</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E439855B-C0FA-4525-9FA2-CF5950C2627C}</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BA728CC7-8ECB-45B6-B4BA-A0D3B8E29F8A}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NIDmmDCRmsVoltage.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsVoltage/NIDmmDCRmsVoltage.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">NIDmmDCRmsMeasurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement/NIDmmDCRmsMeasurement.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsVoltage/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F4ACEE1-4572-4625-A5DF-B21CCC6D47DA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D400F00A-2715-40F5-BA96-AB4D33684CFA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Run Service.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Run Service.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Measurement Result.ctl</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/Typedefs</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NIDmmDCRmsVoltage</Property>
-				<Property Name="TgtF_internalName" Type="Str">NIDmmDCRmsVoltage</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">NIDmmDCRmsMeasurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">NIDmmDCRmsVoltage</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{2B652BF7-0398-46EC-8137-EB5C1E1C3208}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NIDmmDCRmsVoltage.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{358C0557-2F0A-433C-959B-D4E87CD2E02A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NIDmmDCRmsMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
