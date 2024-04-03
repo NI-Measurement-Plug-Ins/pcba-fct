@@ -1,18 +1,16 @@
-## NI-DCPower DC Constant Voltage Power Supply Measurement
+## NI-FGEN Signal Voltage Generation Measurement
 
-This measurement plug-in performs a DC constant source voltage measurement that returns the measured voltage, current and power.
+This measurement plug-in generates a Standard Function waveform that is either sine or square at a set 50% duty cycle using NI-FGEN.
 
 1. Create a pin map if not yet already done so. See [Creating and Using Pin Maps](https://www.ni.com/docs/en-US/bundle/measurementlink/page/using-pin-maps.html).
 2. Select the appropriate pin from the Pin Name drop down.
 3. Provide the desired input values.
 4. Run the measurement.
-5. The measurement will return the measured voltage, current and power. The `In Compliance` indicator will turn true if the compliance limit has been reached. See [here](https://www.ni.com/en/support/documentation/supplemental/19/smu-best-practices--understanding-compliance-and-device-protecti.html) for more information.
-
-
+5. The measurement will display the standard function generated on the graph. A more comprehensive view of the generated waveform can also be seen using an NI SCOPE device to read back the generated waveform.
 
 ### Features
 
-- Uses the NI-DCPower LabVIEW API.
+- Uses the NI-FGEN LabVIEW API.
 - Pin-aware, supporting one session and one pin.
   - Uses the same inputs for all selected pin/site combinations.
 - An example pin map is saved under the measurement source for reference.
@@ -22,7 +20,7 @@ This measurement plug-in performs a DC constant source voltage measurement that 
 
 ### Required Driver Software
 
-- NI-DCPower 2024 Q1 or later
+- NI-FGEN 2023 Q1 or later
 
 ### Required Software
 
@@ -33,4 +31,4 @@ This measurement plug-in performs a DC constant source voltage measurement that 
 
 ### Required Hardware
 
-This example requires an NI SMU that is supported by NI-DCPower (e.g. PXIe-4141/39).
+This example requires an NI Waveform Generator that is supported by NI-FGEN (e.g. PXIe-5441).
