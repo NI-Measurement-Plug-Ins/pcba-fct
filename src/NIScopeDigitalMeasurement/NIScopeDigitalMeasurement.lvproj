@@ -14,6 +14,9 @@
 		<Item Name="NIScopeDigitalMeasurement.lvlib" Type="Library" URL="../NIScopeDigitalMeasurement/NIScopeDigitalMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niScope Actual Meas Wfm Size.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Actual Meas Wfm Size.vi"/>
+				<Item Name="niScope Actual Num Wfms.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Actual Num Wfms.vi"/>
+				<Item Name="niScope array measurement.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope array measurement.ctl"/>
 				<Item Name="niScope Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Attach gRPC Session.vi"/>
 				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
 				<Item Name="niScope Configure Chan Characteristics.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Chan Characteristics.vi"/>
@@ -32,6 +35,8 @@
 				<Item Name="niScope Configure Video Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Video Trigger.vi"/>
 				<Item Name="niScope Detach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Detach gRPC Session.vi"/>
 				<Item Name="niScope Fetch (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch (poly).vi"/>
+				<Item Name="niScope Fetch Array Measurement Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Fetch Array Measurement Cluster.vi"/>
+				<Item Name="niScope Fetch Array Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Fetch Array Measurement.vi"/>
 				<Item Name="niScope Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 8.vi"/>
 				<Item Name="niScope Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 16.vi"/>
 				<Item Name="niScope Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 32.vi"/>
@@ -40,6 +45,9 @@
 				<Item Name="niScope Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex Double.vi"/>
 				<Item Name="niScope Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex WDT.vi"/>
 				<Item Name="niScope Fetch Error Chain.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Error Chain.vi"/>
+				<Item Name="niScope Fetch Measurement (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Fetch Measurement (poly).vi"/>
+				<Item Name="niScope Fetch Measurement Stats.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Fetch Measurement Stats.vi"/>
+				<Item Name="niScope Fetch Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Fetch Measurement.vi"/>
 				<Item Name="niScope Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch WDT.vi"/>
 				<Item Name="niScope Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch.vi"/>
 				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
@@ -48,6 +56,8 @@
 				<Item Name="niScope Initialize for gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize for gRPC Session.vi"/>
 				<Item Name="niScope Initiate Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Initiate Acquisition.vi"/>
 				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
+				<Item Name="niScope Multi Fetch Array Measurement Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Multi Fetch Array Measurement Cluster.vi"/>
+				<Item Name="niScope Multi Fetch Array Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Multi Fetch Array Measurement.vi"/>
 				<Item Name="niScope Multi Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 8.vi"/>
 				<Item Name="niScope Multi Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 16.vi"/>
 				<Item Name="niScope Multi Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 32.vi"/>
@@ -55,10 +65,13 @@
 				<Item Name="niScope Multi Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster.vi"/>
 				<Item Name="niScope Multi Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex Double.vi"/>
 				<Item Name="niScope Multi Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex WDT.vi"/>
+				<Item Name="niScope Multi Fetch Measurement Stats.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Multi Fetch Measurement Stats.vi"/>
+				<Item Name="niScope Multi Fetch Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Measurements/niScope Multi Fetch Measurement.vi"/>
 				<Item Name="niScope Multi Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch WDT.vi"/>
 				<Item Name="niScope Multi Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch.vi"/>
 				<Item Name="niScope polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope polarity.ctl"/>
 				<Item Name="niScope Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Reset.vi"/>
+				<Item Name="niScope scalar measurement.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope scalar measurement.ctl"/>
 				<Item Name="niScope signal format.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope signal format.ctl"/>
 				<Item Name="niScope timestamp type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope timestamp type.ctl"/>
 				<Item Name="niScope trigger coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger coupling.ctl"/>
@@ -105,7 +118,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
 				<Item Name="MeasurementLink Discovery V1.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Discovery V1/MeasurementLink Discovery V1.lvlib"/>
@@ -176,7 +189,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIScopeDigitalMeasurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DCE8CF56-3C47-4A81-80FB-F45DEC071EEA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3AF02016-0806-48FB-9A4A-DB81EEA69E43}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIScopeDigitalMeasurement.lvlib/Get Measurement Details.vi</Property>
