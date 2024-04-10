@@ -10,9 +10,9 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
-	<Item Name="SubVI" Type="Folder">
-		<Item Name="Magnitudes Measurement.vi" Type="VI" URL="../SubVI/Magnitudes Measurement.vi"/>
-		<Item Name="Tones Measurement.vi" Type="VI" URL="../SubVI/Tones Measurement.vi"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Magnitudes Measurement.vi" Type="VI" URL="../SubVIs/Magnitudes Measurement.vi"/>
+		<Item Name="Tones Measurement.vi" Type="VI" URL="../SubVIs/Tones Measurement.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
