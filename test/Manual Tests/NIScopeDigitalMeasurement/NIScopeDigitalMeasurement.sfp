@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AE2B6668B4CB0B7481409BF00E1E972DFC249A55CE3B2A7A170BFD932E75E0F8BEDAC4CEE31EDF9FD4AC7096072C0BD53B16AB344B0454C6E60ECEF329A6FA23" Timestamp="1DA89C21F5F7C20" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="53E82D394BE262E8A84CD51C7BE0477833A7FC6E148E3AB4DCC26125F1C417F96467BF17E55B79CA136722D97B12138332C30D01F21965DA317C519B03413FBD" Timestamp="1DA8B1E088CB604" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.9.0.50025" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="fbc7c6cd013d4697ac3e27bd0fb317f4" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6f810bc5a19a41bea9615603cf5b648b" Name="NIScopeDigitalMeasurement.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="f0d6e322d90a49f79777ce786debb5d1" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{2dfc4d9a-7333-4b89-adf0-c9455faf3bf6}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;vertical range (v)&quot;:10.0,&quot;vertical offset (v)&quot;:0.0,&quot;vertical coupling&quot;:1,&quot;minimum sample rate (s/s)&quot;:10000.0,&quot;minimum record length (s)&quot;:20000}" DisplayName="NI-SCOPE Digital Measurement" Id="9d0544735eb84a77bedeb98f852ddb61" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIScopeDigitalMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{c445fe25-02f8-4e64-a032-a8ad08948431}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;vertical range (v)&quot;:10.0,&quot;vertical offset (v)&quot;:0.0,&quot;vertical coupling&quot;:1,&quot;minimum sample rate (s/s)&quot;:1000000.0,&quot;minimum record length (s)&quot;:2000,&quot;trigger level (v)&quot;:0.0,&quot;trigger coupling&quot;:1,&quot;trigger slope&quot;:0}" DisplayName="NI-SCOPE Digital Measurement" Id="9d0544735eb84a77bedeb98f852ddb61" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIScopeDigitalMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="47e563381b354a2b927c9f2ef5ec44f7" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>

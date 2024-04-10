@@ -10,8 +10,9 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
-	<Item Name="SubVI" Type="Folder">
-		<Item Name="Digital Meas Analyze PWM Measurements.vi" Type="VI" URL="../SubVI/Digital Meas Analyze PWM Measurements.vi"/>
+	<Item Name="TestStand Code Modules" Type="Folder">
+		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
+		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
