@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="342554F36AACDB6D74B0297BAEB190204627278B2929CFB5370645B150ABC0AE92A3499291480AAFBE8776B5DB7BF0770F6D44E835B90497F11372613B15C99B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="44a6dc1989804be4a87d90232b786642" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="974bbe23f6f442098e24849fd14ebd66" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="8ff05bdc548a485cbc27fa220ddade5f" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<FileReference Id="45a04b53ba0748a5ba1569a597fa1cbb" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIScopeDigitalMeasurement.pinmap" StoragePath="..\..\..\src\NIScopeDigitalMeasurement\NIScopeDigitalMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="42d1812a081540a583cfc767e0d24570" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIScopeDigitalMeasurement.sfp" StoragePath="NIScopeDigitalMeasurement.sfp" />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
