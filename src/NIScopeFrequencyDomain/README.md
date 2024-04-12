@@ -19,10 +19,10 @@ This example performs frequency domain measurement using NI SCOPE.
 
 ### Required Software
 
-- InstrumentStudio 2024Q1 or later
-- MeasurementLink 2024Q1 or later
-- LabVIEW 2024Q1 or later
-- TestStand 2023Q4 or later
+- InstrumentStudio 2024 Q1 or later
+- MeasurementLink 2024 Q1 or later
+- LabVIEW 2024 Q1 or later
+- TestStand 2023 Q4 or later
 
 ### Required Hardware
 
