@@ -16,7 +16,7 @@ The measurements cover 4 classes of modular instruments: FGEN, SCOPE, SMU and DM
 - SMU
     - Power supply source and measurement
 - DMM
-    - DC RMS current/voltage measurement
+    - DC current/voltage RMS measurement
 
 ## Getting Started
 
