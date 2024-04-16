@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="03A47031511102A70B18096050A0455D97954287289CF9F22B3335B30AB92D7632851C7A11673A7EA71230B86E134BA28E335A9F3047AA92C3DD7711E3F02EC8" Timestamp="1DA8A402E159458" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6D441FC36C7D1A0E2C93FEADC3EB5B125D39463F50B7AB9C5CCE623CBCEECE2DFBCDDF6747DFAA8DBC97E2F1A4557C1EE217FF5741C77C6B57AB0278217AF93A" Timestamp="1DA8FA67AF1ECD5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="9.11.0.49428" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.9.0.50025" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
-		<ParsableNamespace AssemblyFileVersion="24.0.0.49428" FeatureSetName="InstrumentStudio Measurement UI" Name="http://www.ni.com/InstrumentFramework/ScreenDocument" OldestCompatibleVersion="22.1.0.1" Version="22.1.0.1" />
+		<ParsableNamespace AssemblyFileVersion="23.5.0.50025" FeatureSetName="InstrumentStudio Measurement UI" Name="http://www.ni.com/InstrumentFramework/ScreenDocument" OldestCompatibleVersion="22.1.0.1" Version="22.1.0.1" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
 	</SourceModelFeatureSet>
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="f5565591ba074df0ab39ff6f873dd4cc" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="54ba87cc12c344dea2653f9bc26c2389" Name="NIScopeFrequencyDomain.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="6c6e1cf21094486d85165fb49a9df67a" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen_2.task">
-			<Screen ClientId="{6b286fe8-2c9a-4c32-ae79-061418d30ba9}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin2&quot;,&quot;vertical range (v)&quot;:10.0,&quot;vertical offset (v)&quot;:0.0,&quot;vertical coupling&quot;:1,&quot;minimum sample rate (s/s)&quot;:10000.0,&quot;minimum record length (s)&quot;:20000.0,&quot;trigger level (v)&quot;:0.0,&quot;trigger coupling&quot;:1,&quot;trigger slope&quot;:0}" DisplayName="NI-SCOPE Frequency Domain" Id="b23e9b68862244b98af07a768c91eb92" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIScopeFrequencyDomain_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{177e41ef-53d0-433b-b08f-3f2531079e59}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;vertical range (v)&quot;:10.0,&quot;vertical offset (v)&quot;:0.0,&quot;vertical coupling&quot;:1,&quot;minimum sample rate (s/s)&quot;:10000.0,&quot;minimum record length (s)&quot;:20000,&quot;trigger level (v)&quot;:0.0,&quot;trigger coupling&quot;:1,&quot;trigger slope&quot;:0}" DisplayName="NI-SCOPE Frequency Domain" Id="b23e9b68862244b98af07a768c91eb92" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIScopeFrequencyDomain_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="bbc9cb799ae9495e9e4aa1220fdb2115" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
