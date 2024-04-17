@@ -16,10 +16,10 @@ This measurement reads a digital signal and analyzes its characteristics (High S
 
 ### Run a Measurement
 In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](TBD) for more details.
-- Select the expected Pin in your system .
+- Select the expected Pin in your system.
 - Setup the measurement vertical range, offset and coupling settings.
 - Setup the measurement timing and trigger settings.
-- Click the Run button. The measured value will be displayed in the measurement indicators and waveform.
+- Click the `Run` button. The measured value will be displayed in the measurement indicators and waveform.
 
 
 ### Required Software or Drivers 
