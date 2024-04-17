@@ -1,37 +1,31 @@
 ## NI-DMM DC RMS Measurement 
 
-This example performs DC RMS measurement using NI DMM.
-
-
-Select the waveform function and range.
-Specify the sample rate and number of samples to acquire.
-  The measured value will be displayed in the DC Value and RMS Value indicators.
-  The Boolean indicator will indicate if the measured value is out of range.
-  The measured waveform will display on the Voltage Waveform graph.
-
+This measurement reads a DC/AC signal and analyzes its characteristics using NI DMM.
 
 ### Features
 
 - Uses the NI-DMM LabVIEW API.
 - Pin-aware, supporting one session and one pin.
   - Uses the same selected measurement function and range for all selected pin/site combinations.
+  - An example pin map file is included for this measurement. However, you'll need to setup your own pin map file according to your own system.
 - Includes InstrumentStudio project files.
-- Includes a TestStand sequence showing how to configure the pin map, register.
-  instrument sessions with the session management service, and run a measurement.
-  - For the sake of simplicity, the TestStand sequence handles pin map and session registration and unregistration in the `Setup` and `Cleanup` sections of the main sequence. For **Test UUTs** and batch process model use cases, these steps should be moved to the `ProcessSetup` and `ProcessCleanup` callbacks.
+- Includes a TestStand sequence showing how to configure the pin map, register instrument sessions with the session management service, and run a measurement.
+  - For the sake of simplicity, the TestStand sequence handles pin map and session registration and unregistration in the `Setup` and `Cleanup` sections of the main sequence. For **Sequential** and **Batch** process model use cases, these steps should be moved to the `ProcessSetup` and `ProcessCleanup` callbacks, See [Using Driver Sessions in TestStand](https://www.ni.com/docs/en-US/bundle/measurementlink/page/teststand-drivers.html) for more information.
 - Uses the NI gRPC Device Server to allow sharing instrument sessions with other measurement services when running measurements from TestStand.
 
-### Required Driver Software
+### Run a Measurement
 
-- NI-DMM 2023 Q1 or later
+In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](TBD) for more details.
+- Select the expected Pin in your system.
+- Setup the measurement function, range.
+- Setup the measurement timing settings.
+- Click the `Run` button. The measured value will be displayed in the measurement indicators and waveform.
 
-### Required Software
+### Required Software or Drivers 
 
-- InstrumentStudio 2024 Q1 or later
-- MeasurementLink 2024 Q1 or later
-- LabVIEW 2024 Q1 or later
-- TestStand 2023 Q4 or later
+- NI-DMM 2023 Q4 or later
+- For more software dependencies, please refer to the main repo[Readme](TBD) for more details.
 
 ### Required Hardware
 
-This example requires an NI DMM that is supported by NI-DMM (e.g. PXIe-4081).
+This measurement requires an NI DMM that is supported by NI-DMM(e.g. PXIe-4081).

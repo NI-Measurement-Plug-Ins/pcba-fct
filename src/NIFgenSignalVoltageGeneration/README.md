@@ -1,12 +1,6 @@
 ## NI-FGEN Signal Voltage Generation Measurement
 
-This measurement plug-in generates a Standard Function waveform that is either sine or square at a set 50% duty cycle using NI-FGEN.
-
-1. Create a pin map if not yet already done so. See [Creating and Using Pin Maps](https://www.ni.com/docs/en-US/bundle/measurementlink/page/using-pin-maps.html).
-2. Select the appropriate pin from the Pin Name drop down.
-3. Provide the desired input values.
-4. Run the measurement.
-5. The measurement will display the standard function generated on the graph. A more comprehensive view of the generated waveform can also be seen using an NI SCOPE device to read back the generated waveform.
+This measurement generates a Standard Function waveform that is either sine or square at a set 50% duty cycle using NI-FGEN.
 
 ### Features
 
@@ -18,16 +12,18 @@ This measurement plug-in generates a Standard Function waveform that is either s
   - For the sake of simplicity, the TestStand sequence handles pin map and session registration and unregistration in the `Setup` and `Cleanup` sections of the main sequence. For batch process model use cases, these steps should be moved to the `ProcessSetup` and `ProcessCleanup` callbacks. See [Using Driver Sessions in TestStand](https://www.ni.com/docs/en-US/bundle/measurementlink/page/teststand-drivers.html) for more information.
 - Uses the NI gRPC Device Server to allow sharing instrument sessions with other measurement services when running measurements from TestStand.
 
-### Required Driver Software
+### Run a Measurement
 
-- NI-FGEN 2023 Q1 or later
+1. Create a pin map if not yet already done so.
+2. Select the appropriate pin from the Pin Name drop down.
+3. Provide the desired input values.
+4. Run the measurement.
+5. The measurement will display the standard function generated on the graph. A more comprehensive view of the generated waveform can also be seen using an NI SCOPE device to read back the generated waveform.
 
-### Required Software
+### Required Software or Drivers 
 
-- InstrumentStudio 2024 Q1 or later
-- MeasurementLink 2024 Q1 or later
-- LabVIEW 2024 Q1 or later
-- TestStand 2023 Q4 or later
+- NI-FGEN 2023 Q4 or later
+- For more software dependencies, please refer to the main repo[Readme](TBD) for more details.
 
 ### Required Hardware
 
