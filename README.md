@@ -8,15 +8,15 @@ This is a collection of Measurement Services for common PCBA Functional Test usi
 
 ## Key Features
 - FGEN
-    - Signal voltage generation
+    - Signal Voltage Generation
 - SCOPE
-    - Digital measurement
-    - Time Domain measurement
-    - Frequency Domain measurement
+    - Digital Measurement
+    - Time Domain Measurement
+    - Frequency Domain Measurement
 - SMU
-    - Power supply source and measurement
+    - Constant Voltage Power Supply Measurement
 - DMM
-    - DC current/voltage RMS measurement
+    - DC Voltage/Current RMS Measurement
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Configure the hardware required by NI MAX before running measurements.
   - Open an existing project or create a new manual layout.
   - Available measurements should be populated and visible.
   - At least one measurement or instrument needs to be selected for the *Large Panel*.
-  - Once open, the measurement will need a pinmap matching the names in NI-MAX created and selected. See additional help on creating a new pinmap can refer to [here](https://www.ni.com/docs/en-US/bundle/instrumentstudio/page/create-new-pin-map.html).
+  - Once open, the measurement will need a pinmap matching the instrument names created in NI MAX. See additional help on creating a new pinmap can refer to [here](https://www.ni.com/docs/en-US/bundle/instrumentstudio/page/create-new-pin-map.html).
   - Click `Run` to run the measurement.
 - TestStand:
   - Create a TestStand sequence.
@@ -59,7 +59,10 @@ Functions of measurements are tested and validated. Testing materials are in the
 - The Pin Map file for each measurement can be found in the corresponding subfolders within the [src](/src) directory.
 
 ### Build
-Package, feed ...
+See the [Releases](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/releases) page of this repo to download the latest nipkg of the entire collection of measurements. Installing the nipkg will install each measurement service into the 'C:\ProgramData\National Instruments\MeasurementLink\Services' directory so the measurements will be ready-to-use in both InstrumentStudio and TestStand.
+- This package does not include any driver or software dependencies (e.g. LabVIEW). Those most be installed first separately.
+- The [package](/package) folder of this repo includes the NI Package Builder (.pbs) solution that was used to build the nipkg locally.
+- If rebuilding the nipkg, it is recommended to rebuild the exe build spec in each measurement's `.lvproj` with the destination directory set to an short, local path. Then, the .pbs solution can be updated to pull local build files from that path before rebuilding the nipkg. 
 
 ## Reference
 - [Measurementlink LabVIEW Examples](https://github.com/ni/measurementlink-labview/tree/main/Source/Example%20Measurements)
