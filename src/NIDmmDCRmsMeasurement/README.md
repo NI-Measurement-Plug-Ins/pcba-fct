@@ -15,7 +15,7 @@ This measurement reads a DC/AC signal and analyzes its characteristics using NI 
 
 ### Run a Measurement
 
-In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](TBD) for more details.
+In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
 - Select the expected Pin in your system.
 - Setup the measurement function, range.
 - Setup the measurement timing settings.
@@ -24,7 +24,7 @@ In order to use a measurement, you will need to start the measurement service an
 ### Required Software or Drivers 
 
 - NI-DMM 2023 Q4 or later
-- For more software dependencies, please refer to the main repo[Readme](TBD) for more details.
+- For more software dependencies, please refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
 
 ### Required Hardware
 

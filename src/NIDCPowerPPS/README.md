@@ -25,7 +25,7 @@ This measurement performs a DC constant source voltage measurement that returns 
 ### Required Software or Drivers 
 
 - NI-DCPower 2024 Q1 or later
-- For more software dependencies, please refer to the main repo[Readme](TBD) for more details.
+- For more software dependencies, please refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
 
 ### Required Hardware
 
