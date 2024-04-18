@@ -1,9 +1,6 @@
 # PCB Assembly Test Measurements
 
 ## Overview
-
-This MeasurementLink LabVIEW plugin makes measurements for PCBA functional test.
-
 This is a collection of Measurement Services for common PCBA Functional Test using NI Modular Instruments (DMM, FGEN, Scope, SMU).
 
 ## Key Features
@@ -45,7 +42,7 @@ Configure the hardware required by NI MAX before running measurements.
   - Open an existing project or create a new manual layout.
   - Available measurements should be populated and visible.
   - At least one measurement or instrument needs to be selected for the *Large Panel*.
-  - Once open, the measurement will need a pinmap matching the instrument names created in NI MAX. See additional help on creating a new pinmap can refer to [here](https://www.ni.com/docs/en-US/bundle/instrumentstudio/page/create-new-pin-map.html).
+  - Once open, the measurement will need a pinmap matching the instrument names created in NI MAX. For additional help on creating a new pin map, see [here](https://www.ni.com/docs/en-US/bundle/instrumentstudio/page/create-new-pin-map.html).
   - Click `Run` to run the measurement.
 - TestStand:
   - Create a TestStand sequence.
@@ -54,9 +51,9 @@ Configure the hardware required by NI MAX before running measurements.
   - Run the sequence. The measurement runs as a step in the sequence.
 
 ### Testing
-Functions of measurements are tested and validated. Testing materials are in the [test](/test) folder. 
+Functions of measurements are tested and validated. Testing materials are in the [test](/test) folder.
 - The folder includes TestStand sequences and InstrumentStudio projects used for the manual testing.
-- The Pin Map file for each measurement can be found in the corresponding subfolders within the [src](/src) directory.
+- The pin map file for each measurement can be found in the corresponding subfolders within the [src](/src) directory.
 
 ### Build
 See the [Releases](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/releases) page of this repo to download the latest nipkg of the entire collection of measurements. Installing the nipkg will install each measurement service into the 'C:\ProgramData\National Instruments\MeasurementLink\Services' directory so the measurements will be ready-to-use in both InstrumentStudio and TestStand.
