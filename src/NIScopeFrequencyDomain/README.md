@@ -15,7 +15,7 @@ This measurement reads a signal and analyzes its characteristics in frequency do
 
 ### Run a Measurement
 
-In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](TBD) for more details.
+In order to use a measurement, you will need to start the measurement service and open the measurement plugin in InstrumentStudio at first, refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
 - Select the expected Pin in your system.
 - Setup the measurement vertical range, offset and coupling settings.
 - Setup the measurement timing and trigger settings.
@@ -24,7 +24,7 @@ In order to use a measurement, you will need to start the measurement service an
 ### Required Software or Drivers 
 
 - NI-SCOPE 2024 Q1 or later
-- For more software dependencies, please refer to the main repo [Readme](TBD) for more details.
+- For more software dependencies, please refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
 
 ### Required Hardware
 
