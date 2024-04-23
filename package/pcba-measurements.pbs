@@ -1,0 +1,121 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>pcba-measurements</Name>
+    <SourceItems />
+    <InputSourceItems />
+    <Distributions>
+        <Distribution z:Id="i2" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i3" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i4" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink</DestinationRelativePath>
+                    <Name>MeasurementLink</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i5" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[ProgramData]\National Instruments\MeasurementLink\Services</DestinationRelativePath>
+                    <Name>Services</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+            </DistributionItems>
+            <Name>PCB Assembly Test Measurements</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i6">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>This includes a collection of Measurement Services for common PCBA Functional Test.</Description>
+            <DisplayName>PCB Assembly Test Measurements</DisplayName>
+            <FileName>ni-pcba-measurements_1.0.0.0_windows_x64.nipkg</FileName>
+            <Homepage>https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct</Homepage>
+            <MaintainerEmail>nathan.murphy@ni.com</MaintainerEmail>
+            <MaintainerName>GitHub Community</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-pcba-measurements</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Add-Ons</Section>
+            <Synopsis>ni-pcba-measurements</Synopsis>
+            <Version>1.0.0.0</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i7">
+            <Distributions>
+                <Distribution z:Ref="i2" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i8">
+            <Definition z:Id="i9">
+                <Description i:nil="true" />
+                <Name>TestStand Options</Name>
+            </Definition>
+            <HasDefaultValues>true</HasDefaultValues>
+            <Value z:Id="i10" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i11" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i12" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i13" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i14" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i15" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i16" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i17" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i18" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i19" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i20" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i21" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i22" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i23" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i24" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i25" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i26" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i28" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i29" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i30" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i31" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i32" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i33" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i34" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i35" i:type="BooleanConfigurationOptionValue" />
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>
