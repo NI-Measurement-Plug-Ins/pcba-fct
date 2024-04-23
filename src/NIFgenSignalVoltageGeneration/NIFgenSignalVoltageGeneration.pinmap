@@ -2,11 +2,9 @@
 <PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.5">
 	<Instruments>
 		<NIFGenInstrument name="FGEN1" numberOfChannels="1" />
-		<NIScopeInstrument name="SCOPE1" numberOfChannels="1" group="Scope" />
 	</Instruments>
 	<Pins>
 		<DUTPin name="Pin1" />
-		<DUTPin name="ScopePin" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -14,6 +12,5 @@
 	</Sites>
 	<Connections>
 		<Connection pin="Pin1" siteNumber="0" instrument="FGEN1" channel="0" />
-		<Connection pin="ScopePin" siteNumber="0" instrument="SCOPE1" channel="0" />
 	</Connections>
 </PinMap>
