@@ -23,11 +23,11 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 This repo contains source code, package and testing materials showing how to test the functionality of these measurements.
 
-See mroe details of `Getting Started` in the [README](/README.md).
+See more details for `Getting Started` in the [README](/README.md).
 
 # Testing
 
-See more details of `Testing` in the [README](/README.md).
+See more details for `Testing` in the [README](/README.md).
 
 # Developer Certificate of Origin (DCO)
 
