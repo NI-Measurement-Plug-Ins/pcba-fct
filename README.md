@@ -19,14 +19,14 @@ This is a collection of Measurement Services for common PCBA Functional Test usi
 
 ### Software Dependencies
 - [InstrumentStudio 2024 Q1 or later](https://www.ni.com/r/lsadgm)
-- [MeasurementLink 2024 Q1 or later](TBD)
+- [MeasurementLink 2024 Q1 or later](https://www.ni.com/r/7ldt7g)
 - [LabVIEW 2024 Q1 or later](https://www.ni.com/r/p0pvmk)
 - [TestStand 2023 Q4 or later](https://www.ni.com/r/o16yk2)
-- [MeasurementLink Support for LabVIEW v2.0.0.1 or later](TBD) from VIPM
+- [MeasurementLink Support for LabVIEW v2.0.0.1 or later](https://www.ni.com/r/yl16bq) from VIPM
 - NI Modular Instrument Drivers
-  - [NI-SCOPE 2024 Q1 or later](TBD)
+  - [NI-SCOPE 2024 Q1 or later](https://www.ni.com/r/7viil8)
   - [NI-DMM 2023 Q4 or later](https://www.ni.com/r/ryflpz)
-  - [NI-DCPower 2024 Q1 or later](TBD)
+  - [NI-DCPower 2024 Q1 or later](https://www.ni.com/r/anlxr1)
   - [NI-FGEN 2023 Q4 or later](https://www.ni.com/r/fsxbkw)
 
 ### Hardware Setup
