@@ -1,5 +1,3 @@
-# pcba-fct
-
 The pcba-measurements.pbs is the NI Package Builder solution file used to build the nipkg found in the [Releases](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/releases) of this repo.
 
 # Getting Started
