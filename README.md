@@ -58,8 +58,7 @@ Functions of measurements are tested and validated. Testing materials are in the
 ### Build
 See the [Releases](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/releases) page of this repo to download the latest nipkg of the entire collection of measurements. Installing the nipkg will install each measurement service into the 'C:\ProgramData\National Instruments\MeasurementLink\Services' directory so the measurements will be ready-to-use in both InstrumentStudio and TestStand.
 - This package does not include any driver or software dependencies (e.g. LabVIEW). Those must be installed first separately.
-- The [package](/package) folder of this repo includes the NI Package Builder (.pbs) solution that was used to build the nipkg locally.
-- If rebuilding the nipkg, it is recommended to rebuild the exe build spec in each measurement's `.lvproj` with the destination directory set to an short, local path. Then, the .pbs solution can be updated to pull local build files from that path before rebuilding the nipkg. 
+- The [package](/package) folder of this repo includes the NI Package Builder (.pbs) solution that was used to build the nipkg locally. See its readme for more details on how to use the .pbs file.
 
 ## Reference
 - [Measurementlink LabVIEW Examples](https://github.com/ni/measurementlink-labview/tree/main/Source/Example%20Measurements)
