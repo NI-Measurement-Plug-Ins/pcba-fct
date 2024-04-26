@@ -23,7 +23,7 @@ This measurement generates a Standard Function waveform that is either sine or s
 ### Required Software or Drivers 
 
 - NI-FGEN 2023 Q4 or later
-- For more software dependencies, please refer to the main repo [Readme](https://github.com/NI-MeasurementLink-Plug-Ins/pcba-fct/blob/main/README.md) for more details.
+- For more software dependencies, please refer to the main repo [Readme](../../README.md) for more details.
 
 ### Required Hardware
 
